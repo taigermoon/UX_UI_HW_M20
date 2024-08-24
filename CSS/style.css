@@ -1,0 +1,55 @@
+.jumbotron {
+    background-image: url(../images/pexels-christian-heitz-285904-842711.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+.jumbotron h1{
+    color: #fff;
+}
+
+.jumbotron p{
+    color: #fff;
+}
+
+.sectionHeading {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.col {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin: auto;
+    padding: 2px;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+
+.cardContainer {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .cardB {
+    display: inline;
+    align-items: center;
+    flex-direction: row;
+  }
